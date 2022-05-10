@@ -1,0 +1,115 @@
+
+body{
+    height: 100vh;
+    overflow: hidden;
+    background-image:linear-gradient(orange,black);
+}
+.logout{
+    color:white;
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px 20px;
+    font-weight: bolder;
+}
+.logout:hover{
+    color:orange;
+}
+
+table{
+    border-radius: 50px;
+    padding:15px
+
+    
+    
+}
+h1{
+    text-align: center;
+}
+td{
+    padding:7px;
+    border-bottom:2px solid black;
+  
+
+    
+}
+th{
+    font-weight: bold;
+    font-size: larger;
+    border-bottom:2px solid black;
+}
+
+
+
+.main-div{
+    display: flex;
+    
+    height: 100%;
+}
+.hide{
+    display: none;
+    
+}
+p.hide{
+    font-size: 1.5rem;
+}
+
+.table-container{
+    height: max-content;
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    gap: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    border-radius: 10px;
+
+}
+/* .table-div{
+    background-color: white;
+    
+} */
+.table-div3{
+    background-image:linear-gradient(grey,white);
+    border:2px solid black;
+
+}
+.profile{
+    height:100vh;
+    width:4vw;
+    display: inline;
+    background-color: orange;
+    transition: width  0.5s ease-in-out;
+    position: fixed;
+    
+
+
+}
+.profile:hover{
+    width:10vw;
+    
+}
+.profile i{
+    text-align: center;
+}
+.proflink{
+    display:none;
+    text-align: center;
+}
+.proflink a{
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+}
+.icon{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+   
+
+
+}
+.profile:hover .proflink{
+    display:block;
+}

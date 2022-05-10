@@ -1,0 +1,210 @@
+*{
+    margin:0px;
+     overflow: hidden; 
+}
+body{
+    background-image: radial-gradient(orange,black);
+}
+.navbar{
+    width:100%;
+    background-color: black;
+   
+    
+    
+}
+.box{
+    display:flex;
+}
+nav{
+    color:white;
+}
+#navbarNav{
+    margin-left:60% ;
+    
+}
+.navbar img{
+    margin-left:30px;
+
+}
+.nav-link{
+    background-color: black;
+    float:right;
+    margin:5px;
+    color:white;
+    border-radius: 50px;
+}
+.nav-link:hover{
+    /* background-color: grey; */
+    color:orange;
+    height: 30px;
+}
+.nav-link{
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+}
+.profile{
+    height:100vh;
+    width:4vw;
+    display: inline;
+    background-color: orange;
+    transition: width  0.5s ease-in-out;
+    position: fixed;
+    
+
+
+}
+.profile:hover{
+    width:10vw;
+    
+}
+.profile i{
+    text-align: center;
+}
+.proflink{
+    display:none;
+    text-align: center;
+}
+.proflink a{
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+}
+.icon{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+   
+
+
+}
+.profile:hover .proflink{
+    display:block;
+}
+
+.container{
+    display:flex;
+    width:70vw;
+    height:90vh;
+    padding:40px;
+    margin-top:25px;
+    background-color: white;
+    justify-content: center;
+    border-radius: 25px;
+    
+    
+}
+.picture {
+   /* background-image:url(https://raw.githubusercontent.com/thapatechnical/loginsign/main/public/images/hero.png) ; */
+    border-radius: 25px 0px 0px 25px;
+    padding:25px;
+    width:90vh;
+    color:white;
+    
+   
+    
+
+}
+.picture img{
+    max-width: 100%;
+    min-height: 100%;
+    
+}
+
+.loginform{
+    background-color: white;
+    border-radius: 0px 25px 25px 0px;
+    padding:10px;
+    width:70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+ 
+    color:orange;
+
+
+}
+.loginform .head{
+    font-size: 41px;
+    font-weight: bolder;
+}
+
+input[type="email"]{
+    margin:20px;
+    border:none;
+    border-bottom:2px solid orange;
+    padding:5px;
+    width:300px;
+}
+input[type="password"]{
+    margin:20px;
+    border:none;
+    border-bottom:2px solid orange;
+    padding:5px;
+    width:300px;
+}
+#forget{
+    text-decoration: none;
+    margin-left:20px;
+    color:orange;
+}
+#forget:hover{
+    color:orangered;
+}
+input[type="submit"]{
+    margin:20px;
+    justify-content: center;
+    background-color: orange;
+    width:300px;
+    height:40px;
+    border-radius: 50px;
+    font-weight: bolder;
+    
+}
+input[type="submit"]:hover{
+    background-color: orangered;
+}
+input[type="checkbox"]{
+    margin-right: 5px;
+    vertical-align: middle;
+}
+#remem{
+    display:inline;
+    margin-left: 20px;;
+}
+.reg{
+    margin-left:20px;
+}
+.reg a{
+    text-decoration:none;
+}
+@media screen and (max-width: 1105px) {
+     .container{
+        display:flex;
+        width:50vw;
+        height:90vh;
+        padding:40px;
+        margin-top:25px;
+        background-color: white;
+        justify-content: center;
+        border-radius: 25px;
+        flex-wrap: wrap;
+        overflow:auto;
+  } 
+  
+
+  }
+  @media screen and (max-width: 991px) {
+    #navbarNav button{
+        margin-left:0px ;
+        
+    }
+ } 
+ 
+
+ 
+  
+  
+  
